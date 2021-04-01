@@ -1,0 +1,124 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	color: #ccddff;
+
+text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+body {
+	background: #CE0000;
+background: -moz-linear-gradient(-45deg, #CE0000 0%, #FFB94D 50%, #C5B83B 100%);
+background: -webkit-linear-gradient(-45deg, #CE0000 0%, #FFB94D 50%, #C5B83B 100%);
+background: linear-gradient(135deg, #CE0000 0%, #FFB94D 50%, #C5B83B 100%);
+}
+
+.header {
+	color: white;
+	font-family: 'Yeon Sung';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+
+.header img {
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div {
+
+	float: none;
+	border-radius: 15px;
+	border-color: black;
+	border-width: 4px;
+	background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button {
+	width: 80%;
+	border-radius: 15px;
+}
+
+.room_name {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout {
+	font-size: 20px;
+	float: right;
+}
+
+
+#output {
+	padding: 10px;
+	width: 80%;
+	
+
+	border-radius: 15px;
+}
+
+.input_div_room_page {
+	width: 80%;
+}
+
+.input_div label {
+	color: white;
+	font-size: 20px;
+}
+
+
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #A700CE;
+background: -moz-linear-gradient(-45deg, #A700CE 0%, #4D4FA4 68%, #6491C5 100%);
+background: -webkit-linear-gradient(-45deg, #A700CE 0%, #4D4FA4 68%, #6491C5 100%);
+background: linear-gradient(135deg, #A700CE 0%, #4D4FA4 68%, #6491C5 100%);
+}
+
+.input_div_message_page label {
+	color: black;
+}
+
+.input_div_message_page #msg {
+	width: 80%;
+}
+
+.input_div_message_page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.color_white {
+	color: white
+}
+
+.user_tick {
+	width: 20px;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: grey;
+}
